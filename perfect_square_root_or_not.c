@@ -2,11 +2,13 @@
 #include<math.h>
 int main()
 {
-    int n; 
+    int n;
     float d;
     scanf("%d",&n);
-    d=sqrt(n); 
+    d=sqrt(n);
     if(ceil(d)==floor(d))
-    printf("True"); 
-    else 
-    printf("False"); }
+    printf("True");
+    else
+    printf("False");
+    
+}
